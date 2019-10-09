@@ -51,7 +51,7 @@ describe("Counter", () => {
     expect(handleChange.mock.calls[1][0]).toBe(-2);
   });
 
-  it("failing test", () => {
-    expect(false).toBe(true);
+  it("working test", () => {
+    expect(true).toBe(true);
   });
 });
